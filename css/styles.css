@@ -29,6 +29,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
 }
 .address-style {
   font-style: normal;
@@ -64,11 +65,16 @@ img {
   padding-bottom: 120px;
 }
 .conteiner {
+  display: flex;
   margin: 0 auto;
+  padding: 0 15px
   max-width: 1440px;
   width: 1158px;
 }
 /*Header*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-nav-list {
   display: flex;
   align-items: center;
@@ -89,6 +95,10 @@ img {
   flex-grow: 1;
   justify-content: center;
 }
+.item-nav { 
+  padding: 24px 0 
+
+}
 .nav {
   display: inline-block;
   padding: 24px 0;
@@ -102,11 +112,10 @@ img {
 .nav:focus {
   color: var(--c-brand);
 }
-
-.social {
+.address-style{ 
   display: flex;
-  gap: 40px;
-}
+  gap: 40px;}
+
 
 .header_address {
   display: inline-block;
