@@ -224,7 +224,7 @@ img {
   background-color: var(--c-logo);
 }
 .second-title {
-  flex-direction: column;
+  display: inline-block;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -297,9 +297,12 @@ img {
   margin: 0;
 }
 /*Footer-section*/
-
+.f_cont {
+  padding: 100px 0;
+}
 .footer-logo-one {
   display: inline-block;
+
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -317,13 +320,13 @@ img {
   color: var(--c-logo);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 
 .footer-text {
-  color: var(--c-logo);
   max-width: 264px;
+  color: var(--c-logo);
 }
 .sectionfooter-color {
   background-color: var(--c-bg);
-  padding: 100px 0;
 }
