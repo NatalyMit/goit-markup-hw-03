@@ -143,22 +143,26 @@ img {
 }
 .title-list {
   color: var(--c-bgl);
+  justify-content: center;
   font-size: 56px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
-  text-align: center;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-button {
   display: block;
-  align-items: center;
   min-width: 169px;
-  margin: 0 636px 188px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
   height: 56px;
   border: none;
+  justify-content: center;
   color: var(--c-bgl);
   background-color: var(--c-brand);
   font-weight: 500;
@@ -225,6 +229,7 @@ img {
 }
 .second-title {
   display: inline-block;
+  align-items: center;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -232,7 +237,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--c-bg);
-  margin: 72px;
+  margin-bottom: 72px;
 }
 
 .list-specialists {
@@ -277,7 +282,6 @@ img {
 .item {
   display: flex;
   justify-content: center;
-
   column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
@@ -285,7 +289,6 @@ img {
 
 .item-card {
   width: calc((100% - 48px) / 3);
-  flex-shrink: 0;
 }
 .bord-card {
   display: flex;
@@ -297,12 +300,9 @@ img {
   margin: 0;
 }
 /*Footer-section*/
-.f_cont {
-  padding: 100px 0;
-}
+
 .footer-logo-one {
   display: inline-block;
-
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -313,6 +313,7 @@ img {
   text-transform: uppercase;
 }
 .footer-logo-two {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -329,4 +330,6 @@ img {
 }
 .sectionfooter-color {
   background-color: var(--c-bg);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
