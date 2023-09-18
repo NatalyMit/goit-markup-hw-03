@@ -21,7 +21,6 @@ ul {
   padding: 0;
 }
 li {
-  text-align: center;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -212,6 +211,7 @@ img {
 .text_section {
   color: var(--c-par);
   letter-spacing: 0.02em;
+  line-height: 1.5;
   text-align: left;
   margin: 0;
 }
@@ -329,6 +329,8 @@ img {
 .footer-text {
   max-width: 264px;
   color: var(--c-logo);
+  line-height: 1.5;
+  letter-spacing: 0.2;
 }
 .footer-section {
   background-color: var(--c-bg);
